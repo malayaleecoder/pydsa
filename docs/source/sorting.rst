@@ -44,3 +44,8 @@ Counting Sort
 ----------
 
 .. autofunction:: pydsa.counting_sort
+
+Gnome Sort
+----------
+
+.. autofunction:: pydsa.gnome_sort
