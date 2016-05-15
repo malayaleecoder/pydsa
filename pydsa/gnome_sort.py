@@ -15,7 +15,7 @@ def gnome_sort(a):
     """
     i = 0
     while i < len(a):
-        if i and a[i] < a[i-1]:
+        if i != 0 and a[i] < a[i-1]:
             a[i], a[i-1] = a[i-1], a[i]
             i -= 1
         else:
